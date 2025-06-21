@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title><br>
+    <img src="DevaPIC.jpg" alt="Student Image" width="200" height="300">
+</head>
+<body>
+    <!-- Registration Form -->
+  <section id="register">
+    <h2>📝 Register Here</h2>
+    <form method="post" action="/register" enctype="multipart/form-data" novalidate>
+      <label>Full Name:
+        <input type="text" name="fullname" placeholder="Enter your name" required>
+      </label><br><br>
+
+      <label>Email:
+        <input type="email" name="email" placeholder="Enter your email" required>
+      </label><br><br>
+
+      <label>Gender:
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+      </label><br><br>
+
+      <label>Course:
+        <select name="course">
+          <option value="cse">CSE</option>
+          <option value="ece">ECE</option>
+          <option value="eee">EEE</option>
+        </select>
+      </label><br><br>
+
+      <label>Upload ID:
+        <input type="file" name="student_id">
+      </label><br><br>
+
+      <label>
+        <input type="checkbox" name="agree" required> I agree to the terms
+      </label><br><br>
+
+      <input type="submit" value="Register">
+    </form>
+  </section>
+
+  <!-- Table Data -->
+  <section id="table">
+    <h2>📊 Student Data Table</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+      <caption>Student Information</caption>
+      <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Marks</th>
+      </tr>
+      <tr>
+        <td>101</td>
+        <td>Devaraj</td>
+        <td>CSE</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>Ajith</td>
+        <td>ECE</td>
+        <td>90</td>
+      </tr>
+    </table>
+  </section>
+</body>
+</html>

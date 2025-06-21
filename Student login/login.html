@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Devaraj Kumar">
+  <meta name="description" content="Student Portal Page using HTML only">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portal</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to Student Portal</h1>
+    <p>Your one-stop solution for student information</p>
+    
+    <hr>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a> |
+    <a href="#login">Login</a> |
+    <a href="#register">Register</a> |
+    <a href="#table">Student Data</a> |
+    <a href="#contact">Contact</a>
+    <hr>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>📘 About the Portal</h2>
+    <p>This portal helps students view and manage their academic information online.</p>
+    <ul>
+      <li>Check Grades</li>
+      <li>View Timetable</li>
+      <li>Submit Assignments</li>
+    </ul>
+  </section>
+
+  <!-- Login Form -->
+  <section id="login">
+    <h2>🔐 Student Login</h2>
+    <form action="register.html" method="post" autocomplete="on">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br><br>
+
+      <input type="submit"  value="Login">
+      <input type="reset" value="Reset">
+    </form>
+  </section>
+
+  
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>📩 Contact Us</h2>
+    <address>
+      Email: <a href="mailto:support@studentportal.com">support@studentportal.com</a><br>
+      Phone: +91-9876543210<br>
+      Address: 123, Tech Park, Chennai, Tamil Nadu
+    </address>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <hr>
+    <p>&copy; 2025 Student Portal. All rights reserved.</p>
+    <p><small>Version 1.0 | Created by Devaraj Kumar</small></p>
+  </footer>
+
+</body>
+</html>
